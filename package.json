@@ -18,5 +18,5 @@
   "scripts": {
     "start": "node ./node_modules/gatling/gatling.js ./app.js"
   },
-  "license": "AGPL-3.0"
+  "license": "MIT"
 }
