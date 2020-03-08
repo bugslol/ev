@@ -1,76 +1,11 @@
 <!DOCTYPE html>
 <html>
-  <title>Google Docs</title>
-  <link
-    rel="icon"
-    href="https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico"/>
-   <script>
-document.onkeyup=function(e){
-        var e = e || window.event; // for IE to cover IEs window object
-    if(e.ctrlKey && e.which == 77) {
-javascript:((function(){
-var a,b,c;c="https://www.google.com/docs/about/",
-b=document.createElement("iframe"),
-b.setAttribute("src",c),b.setAttribute("id","rusic-modal"),
-b.setAttribute("style","position: fixed; width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; z-index: 99999999999; background-color: #fff;"),
-a=document.getElementsByTagName("body")[0],
-a.appendChild(b)})).call(this)
-    }
-}
-</script>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">
-    <img src="https://cdn.glitch.com/57c5413f-9197-4bee-98d6-15fe8e860cdc%2FUntitled_2%20(1).png?v=1583156317160" width="40" height="40" alt="">
-  </a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Surf</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="selection.html"
-            >Games<span class="sr-only">(current)</span></a>
-           <li class="nav-item">
-        <a class="nav-link" href="chat.html">Chat</a>
-      </li>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!-- Latest compiled and minified CSS -->
-  <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-  />
-
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-  <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
-  new Crate({
-    server: '591367747989012537',
-    channel: '591367748794187861',
-    shard: 'https://disweb.dashflo.net'
-  })
-</script>
   <head>
+    <title>Google Docs</title>
+    <link
+      rel="icon"
+      href="https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- header font -->
     <link
@@ -80,14 +15,14 @@ a.appendChild(b)})).call(this)
     />
     <!-- body font -->
     <link
-      href="//https://fonts.googleapis.com/css?family=Roboto"
+      href="//fonts.googleapis.com/css?family=Ubuntu"
       rel="stylesheet"
       type="text/css"
     />
     <style type="text/css">
       /* fonts */
       body {
-        font-family: "Roboto", arial, sans-serif;
+        font-family: "Ubuntu", arial, sans-serif;
         letter-spacing: 1px;
       }
       h1 {
@@ -105,7 +40,7 @@ a.appendChild(b)})).call(this)
       <link rel="stylesheet" type="text/css" href="css/background.css"> 
   /* fonts */
     body {
-        font-family: "Roboto", arial, serif;
+        font-family: "Ubuntu", arial, serif;
         letter-spacing: 1px;
       }
       h1 {
@@ -152,8 +87,8 @@ a.appendChild(b)})).call(this)
         background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAA8CAIAAAAfXYiZAAAB+ElEQVR4nO3b11aDQBSF4T2IXWM3lhfxTt//PWKvsTfwIllLEobQZuZsYM4DyFkffyKBRJ2encBPsQmlF9BNHEtvoBul+LBiAEp6idQogK0sRdlUrMYnjwhLUTYVJzZiwQoom4rUxMmjwAoom4pSG8ljzTEmhV/duQucrzExDZKCbFkhpdRP9vuBWFmNk4JUWfOUUt95/2MEymqoFNyXtUAp9VXsusVpWY2WgsuyFimlPstcCzsqqwVScIPVDik4eBkuUUp9VPokaresNknBalnLlFLvNe5u2CqrfVKwVNYKpdRb7Ttm5stqqxSMl7VKKfVq6C6sybLaLQWDZa1RSr0YvbNvpqwuSMFIWeuUUs8WnhbVLas7UqhZVo9SamjtCWR1rF5kcA1jM7T5Ybfi3+6gFKqVtUEp9WT/1lzpI3RWCmXL2qSUenT11KXEcTouheJlbVFKPbh9RlzoaF5qNPllbVNK3Ut8oyXnmF4qObPK2qGUupP7/l3mkb1UevRl7VJK3Qp/p1NXlpfKmumy9iilbgikMFWWl5o9/4t4qdwZvwz3KaWumaQwKstLFZywTyl1xScF8Z+jaIdTqh8hZPsx1iWl1EEEsJXFLAUwlXVBKXWYeE9nWZBfCiRlnVNKHaWuE+TXbIoUxMsaUEodZ1x7Si7bLCkAf1M7eHbSdYGuAAAAAElFTkSuQmCC);
       }
       .container {
-        border-style: outset;
-        border-width: 4px;
+        border-style: solid;
+        border-width: 1px;
         border-radius: 10px;
         -moz-border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -241,8 +176,10 @@ a.appendChild(b)})).call(this)
         <form action="no-js" method="get" id="unblocker-form">
           <p>
             URL:
-  <input type="text" id="url" name="url" style="background-color:#2c2f33; autofocus="autofocus"/>
-            <button type="submit" class="btn btn-secondary btn-sm">Surf!</button>
+            <input type="text" id="url" name="url" autofocus="autofocus" />
+            <button type="submit" id="button1" style="outline:none;">
+              <b>Surf!</b>
+            </button>
           </p>
         </form>
 
@@ -263,7 +200,7 @@ a.appendChild(b)})).call(this)
           </script>
         </div>
 
-        <h4>‎@MikeMango#0277</h4>
+        <h3>‎@MikeMango#0277</h3>
         <p>‎</p>
         <p>‎</p>
         <p>
@@ -277,46 +214,60 @@ a.appendChild(b)})).call(this)
           ‎
         </p>
       </div>
-
+  <script>
+document.onkeyup=function(e){
+        var e = e || window.event; // for IE to cover IEs window object
+    if(e.ctrlKey && e.which == 77) {
+javascript:((function(){
+var a,b,c;c="https://wikipedia.org/",
+b=document.createElement("iframe"),
+b.setAttribute("src",c),b.setAttribute("id","rusic-modal"),
+b.setAttribute("style","position: fixed; width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; z-index: 99999999999; background-color: #fff;"),
+a=document.getElementsByTagName("body")[0],
+a.appendChild(b)})).call(this)
+    }
+}
+</script>
       <div class="footer">
-        <p>MOTD of 3/2/20 - evade v2.1 is live!</p>
+        <p>MOTD of 2/20/20 - Evade is up and running!</p>
       </div>
-
-      <script>
-        function $(id) {
-          return document.getElementById(id);
-        }
-
-        $("unblocker-form").onsubmit = function() {
-          var url = $("url").value;
-          if (url.substr(0, 4) != "http") {
-            url = "http://" + http://57c5413f-9197-4bee-98d6-15fe8e860cdc;
-          }
-          window.location.pathname = "proxy/" + url;
-          return false;
-        };
-
-        function checkError() {
-          var search = window.location.search;
-          var start = search.indexOf("error=");
-          if (start > -1) {
-            var stop = search.indexOf("&", start);
-            if (stop == -1) {
-              stop = undefined;
-            }
-            // +6 for "error="
-            var err = search.substr(start + 6, stop);
-            var $error = $("error");
-            $error.innerText = $error.textContent = decodeURIComponent(err);
-            $error.style.display = "block";
-          }
-        }
-
-        window.onload = function() {
-          $("url").focus();
-          checkError();
-        };
-      </script>
     </div>
+    <script>
+      function $(id) {
+        return document.getElementById(id);
+      }
+
+      $("unblocker-form").onsubmit = function() {
+        var url = $("url").value;
+        if (url.substr(0, 4) != "http") {
+          url = "http://" + url;
+        }
+        window.location.pathname = "documents/" + url;
+        return false;
+      };
+
+      function checkError() {
+        var search = window.location.search;
+        var start = search.indexOf("error=");
+        if (start > -1) {
+          var stop = search.indexOf("&", start);
+          if (stop == -1) {
+            stop = undefined;
+          }
+          // +6 for "error="
+          var err = search.substr(start + 6, stop);
+          var $error = $("error");
+          $error.innerText = $error.textContent = decodeURIComponent(err);
+          $error.style.display = "block";
+        }
+      }
+
+      window.onload = function() {
+        $("url").focus();
+        checkError();
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/main1.js"></script>
   </body>
 </html>
